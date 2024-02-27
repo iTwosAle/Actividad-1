@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      fieldset {
+        width: 250px;
+      }
+#temas {
+      width: 210px;
+      height: 100px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <h2>Rellana tu CV</h2>
+    <form>
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="provincia">Provincia:</label><br />
+        <select id="provincia" name="provincia">
+          <option value="San Jose">San José</option>
+          <option value="Alajuela">Alajuela</option>
+          <option value="Cartago">Cartago</option>
+          <option value="Heredia">Heredia</option>
+          <option value="Guanacaste">Guanacaste</option>
+          <option value="Puntarenas">Puntarenas</option>
+          <option value="Limon">Limón</option>
+          <br /></select
+        ><br /><br />
+        <label for="Fecha de nacimiento">Fecha de nacimiento</label><br />
+        <input type="text" size="1" /> de
+        <select id="mes" name="mes">
+          <option value="1">Enero</option>
+          <option value="2">Febrero</option>
+          <option value="3">Marzo</option>
+          <option value="4">Abril</option>
+          <option value="5">Mayo</option>
+          <option value="6">Junio</option>
+          <option value="7">Julio</option>
+          <option value="8">Agosto</option>
+          <option value="9">Septiembre</option>
+          <option value="10">Octubre</option>
+          <option value="11">Noviembre</option>
+          <option value="12">Diciembre</option>
+        </select>
+        de <input type="text" size="1" /><br />
+        <br />
+        <label for="Temas de interes">Temas de interes</label><br />
+        <select id="temas" name="temas" multiple size="5">
+          <optgroup label="Entretenimiento">
+            <option value="musica">Música</option>
+            <option value="cine">Cine</option>
+            <option value="literatura">Literatura</option>
+            <option value="arte">Arte</option>
+            <option value="fotografia">Fotografía</option>
+          </optgroup>
+          <optgroup label="Estilo de Vida">
+            <option value="deporte">Deporte</option>
+            <option value="moda">Moda</option>
+            <option value="gastronomia">Gastronomía</option>
+            <option value="viajes">Viajes</option>
+          </optgroup>
+          <optgroup label="Conocimiento">
+            <option value="tecnologia">Tecnología</option>
+            <option value="ciencia">Ciencia</option>
+            <option value="medioambiente">Medio Ambiente</option>
+            <option value="salud">Salud</option>
+            <option value="educacion">Educación</option>
+            <option value="negocios">Negocios</option>
+          </optgroup></select
+        ><br /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
